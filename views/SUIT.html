@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styleW4.css"/> 
+    <title>Challange Week 4</title>
+</head>
+<body>
+<div class="title"> 
+  <a style="color:orange" href="//localhost:3000/game"><</a>
+  <h3 style="color:orange">Rock Paper Scissor</h3>  
+</div>
+<div class="container">
+      <div class="action">
+        <div class="isi">
+          <p style="font-size: 3em; font-weight: bold;">PLAYER 1</p>
+          <input class="options" type="image" src="./assets/assetsW4/batu.png" value="Rock"></input>
+          <input class="options" type="image" src="./assets/assetsW4/kertas.png" value="Paper"></input> 
+          <input class="options" type="image" src="./assets/assetsW4/gunting.png" value="Scissors"></input>
+        </div>
+        <div class="isi">
+          <h1 class="midText" id="versus">VS</h1>
+          <input class="refresh" type="image" src="./assets/assetsW4/refresh.png"  style="margin-top: 12em;" onclick="window.location.reload()"></input>
+        </div>
+        <div class="isi">
+          <p style="font-size: 3em; font-weight: bold;">COM</p>
+          <input class="komputer" type="image" src="./assets/assetsW4/batu.png"  id="satu" value="Rock"></input>
+          <input class="komputer" type="image" src="./assets/assetsW4/kertas.png"  id="dua" value="Paper"></input>
+          <input class="komputer" type="image" src="./assets/assetsW4/gunting.png"  id="tiga" value="Scissors"></input>
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+<script src="./js/GBK.js">
+</script>
+</html>
